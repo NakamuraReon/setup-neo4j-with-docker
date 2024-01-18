@@ -108,18 +108,15 @@ LOCAL DBMSはPluginsからAPOCとGraph Data Science Libraryのインストール
 その他、必要なPluginsがある場合はインストールすれば良いが、`docker-compose.yml`の`NEO4JLABS_PLUGINS`や`NEO4J_dbms_security_procedures_unrestricted`に追記して、コンテナを削除後再起動する．
 
 5. Neo4j Desktopを使用する際の注意事項(2)  
-Neo4j Desktopを使用する際、以下の順序で動作確認を行う．
-<br>  
+Neo4j Desktopを使用する際、以下の順序で動作確認を行う．  
 (1) Neo4j DesktopでLOCAL DBMSを作成し`Start`する．起動手順は4を参照．  
 (2) `docker-compose build`を実行しイメージを作成．  
 (3) `docker-compose up -d`を作成しコンテナを起動．  
 (4) LOCAL DBMSを`Open`する．  
 (5) ユーザ名とパスワードが求められるのでそれぞれ**neo4j**と**p@ssw0rd**と入力．  
-<br>
 注意点としては、コンテナ起動後にLOCAL DBMSを起動するとポートが適切に割り当てられないため、 LOCAL DBMS起動後に必ずコンテナを起動する．  
 失敗した場合は、留意点１を実行してコンテナを再構築・起動する．  
 正常に起動した際は、以下の画像のようになる．  
-<br>
 <img src="./img/img1.png" width="400">  
 <img src="./img/img2.png" width="400">  
  
