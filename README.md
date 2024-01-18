@@ -117,6 +117,6 @@ Neo4j Desktopを使用する際、以下の順序で動作確認を行う．
 注意点としては、コンテナ起動後にLOCAL DBMSを起動するとポートが適切に割り当てられないため、 LOCAL DBMS起動後に必ずコンテナを起動する．  
 失敗した場合は、留意点１を実行してコンテナを再構築・起動する．  
 正常に起動した際は、以下の画像のようになる．  
-<img src="./img/img1.png" width="400">  
-<img src="./img/img2.png" width="400">  
+<img src="./img/img1.png" width="500">
+<img src="./img/img2.png" width="500">  
  
