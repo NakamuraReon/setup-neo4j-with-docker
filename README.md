@@ -38,14 +38,14 @@ Dockerを使用したPythonとNeo4jの開発環境を構築方法を紹介して
 ## ディレクトリ構成
 
     setup-neo4j-with-docker
-       ├ src
-       |   ├ neo4j_test.py
-       |   └ search_test.py
        ├ python_docker
        |     ├ Dockerfile　
        |     └ requirements.txt
-       ├ docker-compose.yml
+       ├ src
+       |   ├ neo4j_test.py
+       |   └ search_test.py
        ├ .gitignore
+       ├ docker-compose.yml
        └ README.me
 
 
