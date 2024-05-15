@@ -1,0 +1,14 @@
+version: '3'
+
+services:
+  python:
+    build: 
+      context: .
+      dockerfile: python_docker/Dockerfile
+    container_name: my_python3
+    volumes:
+      - "./:/app"
+      - "/app/.vscode"
+      - "/app/.idea"
+    tty: true
+    
