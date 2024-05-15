@@ -12,5 +12,4 @@ services:
       - "/app/.idea"
     tty: true
 
-    aaaa
     
