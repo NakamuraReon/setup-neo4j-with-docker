@@ -11,4 +11,6 @@ services:
       - "/app/.vscode"
       - "/app/.idea"
     tty: true
+
+    aaaa
     
