@@ -15,7 +15,7 @@ class HelloWorldExample:
 
     @staticmethod
     def _create_and_return_greeting(tx, message):
-        result = tx.run("CREATE (a:greeting) "
+        result = tx.run("cREATE (a:greeting) "
                         "SET a.message = $message "
                         "RETURN a.message + ', from node ' + id(a)", message=message)
         return result.single()[0]
