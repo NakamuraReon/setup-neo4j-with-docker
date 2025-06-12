@@ -41,6 +41,4 @@ services:
     container_name: python3
     volumes:
       - "./:/app"
-      - "/app/.vscode"
-      - "/app/.idea"
     tty: true
